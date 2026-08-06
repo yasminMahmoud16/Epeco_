@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yasminMahmoud16.github.io/Epeco_",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

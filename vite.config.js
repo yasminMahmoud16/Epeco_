@@ -14,5 +14,5 @@ export default defineConfig({
       gzipSize: true,
     }),
   ],
-  base: "/Epeco_/",
+  // base: "/Epeco_/",
 })
