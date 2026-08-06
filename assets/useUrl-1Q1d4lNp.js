@@ -1,0 +1,1 @@
+function e(){return{baseUrl:`https://yasminMahmoud16.github.io/Epeco/`}}export{e as t};
