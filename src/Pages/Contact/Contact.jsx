@@ -1,5 +1,5 @@
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
-import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
+import TitleSec from "../../Common/TitleSec/TitleSec.jsx";
 import ContactForm from "../../Components/ContactForm/ContactForm.jsx";
 import SocialMediaContact from "../../Components/SocialMediaContact/SocialMediaContact.jsx";
 import useJson from "../../Hooks/useJson.js";

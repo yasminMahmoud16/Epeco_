@@ -1,4 +1,4 @@
-import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
+import TitleSec from "../../Common/TitleSec/TitleSec.jsx";
 import { Link } from "react-router";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import CardSec from "../../Common/Card/CardSec.jsx";

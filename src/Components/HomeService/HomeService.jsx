@@ -1,4 +1,4 @@
-import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
+import TitleSec from "../../Common/TitleSec/TitleSec.jsx";
 
 import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router";

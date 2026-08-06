@@ -1,5 +1,5 @@
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
-import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
+import TitleSec from "../../Common/TitleSec/TitleSec.jsx";
 import CertificationsImg from "../../Components/CertificationsImg/CertificationsImg.jsx";
 import useJson from "../../Hooks/useJson.js";
 

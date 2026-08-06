@@ -1,5 +1,5 @@
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
-import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
+import TitleSec from "../../Common/TitleSec/TitleSec.jsx";
 import ClientsImg from "../../Components/ClientsImg/ClientsImg.jsx";
 import ClientsReview from "../../Components/ClientsReview/ClientsReview.jsx";
 import { Link } from "react-router";

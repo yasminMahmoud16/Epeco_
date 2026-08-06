@@ -1,4 +1,4 @@
-import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
+import TitleSec from "../../Common/TitleSec/TitleSec.jsx";
 import { FaStar } from "react-icons/fa6";
 import useJson from "../../Hooks/useJson.js";
 
