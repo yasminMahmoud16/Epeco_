@@ -1,0 +1,1029 @@
+{
+  "navbar": {
+    "logo":"Neqaa Al-Biah",
+    "Home": "Home",
+    "About": "AboutUs",
+    "TargetAudience": "Target Audience",
+    "OurServices": "Our Services",
+    "ContactUs": "Contact Us",
+    "Clients": "Clients",
+    "Certifications": "Certifications",
+    "ConsulationRequest": "Consulation Request"
+  },
+  "navbarPath": {
+    "Home": "/",
+    "About": "about",
+    "TargetAudience": "audience",
+    "OurServices": "services",
+    "ContactUs": "contact",
+    "Clients": "clients",
+    "clientsDetails": "clients-Details",
+    "Certifications": "certifications"
+  },
+  "footer": {
+    "terms": "Terms",
+    "PrivacyPolicy": "Privacy Policy",
+    "Contact": "Contact Us",
+    "description": "Neqaa Al-Biah Office. All rights reserved"
+  },
+  "home": {
+    "subTitleHero": "Towards Vision 2030 — Your Reliable Environmental Partner",
+    "titleHero1": "Protect Environment",
+    "titleHero2": "Build our Future",
+    "descriptionHero": "Integrated environmental services combining technical expertise and environmental commitment to achieve a sustainable future for the Kingdom of Saudi Arabia.",
+    "buttonHero1": "Our Services",
+    "buttonHero2": "About us",
+    "SatisfiedCustomer": "Satisfied Customer",
+    "ProfessionalExperience": "Professional Experience",
+    "ExecutedProjects": "Executed Projects"
+  },
+  "policy": {
+    "secTitle": "Our Policy",
+    "description": "We are committed to environmental protection and building national capabilities. Through our high-quality environmental services, we drive compliance with environmental regulations and contribute to achieving sustainable development goals.",
+    "aboutSec": "More About us ",
+    "cardDesc1": "Natural resources and preserving them for future generations.",
+    "cardTitle1": "Safeguarding ",
+    "cardDesc2": "National competencies and fostering a team specialized in environmental sustainability.",
+    "cardTitle2": "Empowering ",
+    "cardDesc3": "Mitigating environmental pollution through state-of-the-art technologies and modern approaches.",
+    "cardTitle3": "Constantly "
+  },
+  "services": {
+    "secTitle": "Hands-On Experience",
+    "subTitle": "our services",
+    "description": "From inspection to compliance: Your comprehensive environmental partner",
+    "galleries": [
+      {
+        "id": 1,
+        "detailsId": 1,
+        "gallery1": "Development of Environmental Rehabilitation Plans",
+        "galleryimage": "Gallery1.webp",
+        "size": "tall"
+      },
+      {
+        "id": 2,
+        "detailsId": 9,
+        "gallery1": "Mobile Laboratory Service",
+        "galleryimage": "Gallery2.webp",
+        "size": "normal"
+      },
+      {
+        "id": 3,
+        "detailsId": 3,
+        "gallery1": "Preparation of Periodic Environmental Records",
+        "galleryDesc1": "Conducting Environmental Impact Assessments (EIA)",
+        "galleryimage": "Gallery3.webp",
+        "size": "normal"
+      },
+      {
+        "id": 4,
+        "detailsId": 2,
+        "gallery1": "Sustainability and ESG Consulting",
+        "galleryimage": "Gallery6.webp",
+
+        "size": "tall"
+      },
+      {
+        "id": 5,
+        "detailsId": 4,
+        "gallery1": "Environmental Licensing & NCEC Regulatory Compliance",
+        "galleryimage": "Gallery5.webp",
+        "size": "normal"
+      },
+      {
+        "id": 6,
+        "detailsId": 8,
+        "gallery1": "Environmental Quality Monitoring",
+        "galleryDesc1": "Air, Water, and Soil Testing",
+        "galleryimage": "Gallery4.webp",
+        "size": "normal"
+      }
+    ]
+  },
+  "audience": {
+    "secTitle": "Target Audience",
+    "subTitle": "Explore All Audience",
+    "items": [
+      {
+        "id": 1,
+        "title": "Construction & Contracting Companies",
+        "description": "Supporting your construction projects with the finest materials and engineering solutions that meet the highest standards of quality.",
+        "linkText": "Details"
+      },
+      {
+        "id": 2,
+        "title": "Water Utilities and Wastewater Treatment",
+        "description": "Advanced systems and solutions for efficient water management and recycling, ensuring complete environmental sustainability.",
+        "linkText": "Details"
+      },
+      {
+        "id": 3,
+        "title": "Power Generation & Electrical Substations",
+        "description": "Securing energy supplies and developing distribution networks to support infrastructure and economic growth.",
+        "linkText": "Details"
+      },
+      {
+        "id": 4,
+        "title": "Healthcare & Medical Facilities",
+        "description": "Precision equipment and secure infrastructure that guarantee healthcare stability and patient safety.",
+        "linkText": "Details"
+      },
+      {
+        "id": 5,
+        "title": "Industrial Facilities Sector",
+        "description": "This includes factories and major production facilities that require operational solutions, continuous maintenance, and uninterrupted power supplies to guarantee production efficiency.",
+        "linkText": "Details"
+      },
+      {
+        "id": 6,
+        "title": "Engineering Consultancy Companies",
+        "description": "Your trusted partner in turning engineering blueprints and innovations into tangible reality with precision and professionalism.",
+        "linkText": "Details"
+      },
+      {
+        "id": 7,
+        "title": "Waste Management & Recycling Enterprises",
+        "description": "Innovative technologies for safe and sustainable waste management.",
+        "linkText": "Details"
+      }
+    ]
+  },
+  "aboutArticle": {
+    "mainTitle": "More About us",
+    "main": "Home",
+    "list": [
+      {
+        "id": 1,
+        "slug": "مــــن نــحــــن ",
+        "label": "Who We Are",
+        "image": "who_we_are.webp",
+       "paragraphs": [
+  [
+    {
+      "text": "EPECO Office is one of the leading environmental consulting firms in the Kingdom of Saudi Arabia. Certified as a "
+    },
+    {
+      "type": "highlight",
+      "text": "Class A"
+    },
+    {
+      "text": " consultant by the National Center for Environmental Compliance (NCEC), the office boasts a team of specialized experts dedicated to achieving the highest standards of sustainability."
+    }
+  ],
+  [
+    {
+      "text": "EPECO Office delivers its services through a multidisciplinary team that combines scientific expertise, hands-on experience, and a deep understanding of environmental regulations, helping clients achieve the highest standards of environmental compliance."
+    }
+  ],
+  [
+    {
+      "text": "We are committed to supporting Saudi Vision 2030 by promoting sustainable development, protecting natural resources, and ensuring environmental resilience and sustainability across all sectors."
+    }
+  ]
+]
+      },
+      {
+        "id": 2,
+        "slug": "سياســــتــــنا",
+        "label": "Our Policy",
+        "image": "policy.webp",
+        "style": "bulleted",
+        "intro":"We believe that true success lies in creating a lasting, sustainable impact. Therefore, our operational policy is anchored on three non-negotiable pillars:",
+        "paragraphs": [
+          [
+            
+            {
+              "text": " First, Uncompromising Quality: A strict commitment to the highest quality standards across all our endeavors and projects to ensure we meet and exceed our clients' expectations."
+            },
+          
+          
+            {
+              "text": "Second, Environmental Advocacy: Investing in building an environmentally conscious community by adopting educational initiatives and fostering a culture of sustainability to preserve our natural resources."
+            },
+          
+        
+            {
+              "text": "Third, Human Capital Development: Continuously advancing our human capital by sharpening our team’s skills and equipping them with the latest knowledge and technologies, believing that our excellence begins with the competence of our people."
+            }
+          ]
+          
+          
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "رؤيــــتــــنــــا",
+        "label": "Our Mission",
+        "image": "vision.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "For us, environmental commitment is a continuous scientific and practical practice, not just a slogan. Addressing today’s environmental challenges demands blending academic expertise with cutting-edge technology. Therefore, we stay at the forefront of the technological revolution and latest scientific breakthroughs in the environmental field. Our mission is to bridge the gap between research and field practice, becoming the leading technical and advisory partner in the Kingdom and the Arab world. By relentlessly investing in our capabilities, we ensure the delivery of exceptional quality and innovative solutions that elevate the quality of life and support a resilient, sustainable environment. "
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "servciesArticle": {
+    "mainTitle": " Hands-On Experience",
+    "main": "Home",
+    "list": [
+      {
+        "id": 1,
+        "slug": "إعداد خطط إعادة التأهيل",
+        "label": "Development of Environmental Rehabilitation Plans",
+        "image": "service1.webp",
+        "paragraphs": [
+          [
+            {
+              "text": "Driven by our belief in sustainability and regeneration, we deliver advanced engineering solutions for environmental and technical rehabilitation planning. We meticulously assess the current status and design innovative corrective pathways that restore site vitality and efficiency, transforming environmental and operational challenges into sustainable opportunities for success"
+            }
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "إعداد سجلات بيئية دورية",
+        "label": "Mobile Laboratory Service",
+        "image": "service2.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "We provide you with an advanced ecosystem of environmental laboratories and a team of qualified specialists to conduct the most precise physical, chemical, and microbiological analyses. Our services encompass wastewater testing (both industrial and domestic), drinking and groundwater quality assessment, and soil and ambient environment pollution analysis. We deliver an accurate, scientific reading of your environmental profile, empowering you to optimize facility efficiency and secure full legal compliance"
+            }
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "الإستشارات المتعلقة بالإستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
+        "label": "Preparation of Periodic Environmental Records",
+                "image": "service3.webp",
+
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "We provide you with an advanced ecosystem of environmental laboratories and a team of qualified specialists to conduct the most precise physical, chemical, and microbiological analyses. Our services encompass wastewater testing (both industrial and domestic), drinking and groundwater quality assessment, and soil and ambient environment pollution analysis. We deliver an accurate, scientific reading of your environmental profile, empowering you to optimize facility efficiency and secure full legal compliance"
+            }
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "slug": "التصاريح والإلتزام بمتطلبات المركز  الوطني للرقابة على الإلتزام البيئي (NCEC)",
+        "label": "Sustainability and ESG Consulting",
+        "image": "service4.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Helping businesses lead the future by embedding sustainability and ESG standards into their core operations. Our expert consultancy enables you to reduce risks, attract investors, and drive responsible growth—balancing profitability with a lasting positive impact on society and the planet."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "slug": "إستــــشـــارات بــــيئيـــــة",
+        "label": "NCEC Permits & Regulatory Compliance",
+        "image": "service5.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "As your trusted environmental liaison with regulatory bodies, we manage your compliance portfolio. We align your facility with NCEC requirements by handling everything from essential studies and reports to securing and renewing environmental permits, ensuring your operations remain entirely unhindered by legal obstacles."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "slug": "إعداد خطط إدارة بيئية",
+        "label": "Expert Environmental Consulting",
+        "image": "service6.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Empowering our clients with clear scientific and practical insights to navigate all environmental challenges. Our consultancy spans project baseline analysis, technical recommendations to boost environmental efficiency, and tailored engineering solutions. We ensure your operations balance productivity with local and international compliance, guiding your business toward stable, sustainable growth."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "slug": "إعداد دراسات تقييم الأثر البيئي",
+        "label": "Environmental Impact Assessment (EIA)",
+        "image": "service7.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Positioning your project for sustainable success through high-caliber Environmental Impact Assessment (EIA) studies. We handle comprehensive baseline site assessments, environmental forecasting, and the design of innovative mitigation strategies. Our solutions perfectly balance your investment objectives with ecosystem protection, shielding your business from long-term environmental and legal risks."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "slug": "رصد جودة الأوساط",
+        "label": "Environmental Quality Monitoring",
+        "image": "service8.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Helping you maintain a safe, compliant work environment with periodic and continuous monitoring of all environmental media. Our technical experts measure and analyze air, water, soil, and noise emissions from your operations. We deliver comprehensive technical reports and engineering solutions to rectify any deviations from environmental standards, safeguarding both your facility and the surrounding community. "
+            }
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "slug": "المختبرات البيئية",
+        "label": "Environmental Management Plans (EMP) Development",
+        "image": "service9.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Protecting your investments through proactive and scientific environmental management plans. We evaluate your facility's operations to implement structured frameworks for emissions control, waste management, and resource optimization. This provides senior leadership with a robust tool for self-monitoring, ensuring your project remains fully compliant with environmental permit terms. "
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "audienceArticle": {
+    "mainTitle": " Target Audience",
+    "main": "Home",
+    "list": [
+      {
+        "id": 1,
+        "slug": "شركات الإنشاءات / شركات المقاولات ",
+        "label": "Construction & Contracting Companies",
+        "image": "audience1.webp",
+        "paragraphs": [
+          [
+            {
+              "text": "We recognize that timing and schedule compliance are critical to the construction and contracting industries. That is why we ensure your projects move forward without a single delay. From conducting EIA studies and site-specific environmental management plans to securing official permits swiftly and efficiently, we shield your business from legal obstacles, guaranteeing a project delivered with absolute compliance."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "شركات الاستشارات الهندسية",
+        "label": "Engineering Consulting Companies",
+        "image": "audience2.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Great engineering is driven by environmental sustainability. We partner with engineering consultancies to seamlessly integrate eco-dimensions into their designs and blueprints. By managing EIA studies, environmental management plans, and regulatory technical support on your behalf, we guarantee smooth project approvals and certifications from official bodies, adding premium value and reliability to your final deliverables."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "شركات إدارة النفايات",
+        "label": "Waste Management & Recycling Companies",
+        "image": "audience3.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Waste management is the bedrock of a circular economy. We empower businesses in this sector with expert environmental consultancy and monitoring solutions to guarantee clean, efficient operations. By monitoring the environmental media around your facilities—including air, soil, and groundwater—and crafting robust environmental management plans, we enable you to deliver safe, sustainable recycling and treatment solutions."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "slug": "مرافق المياه ومعالجة مياه الصرف الصحي",
+        "label": "Water Utilities and Wastewater Treatment",
+        "image": "audience4.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Delivering comprehensive environmental and advisory solutions to drive efficiency and sustainability in water treatment plants. We specialize in monitoring environmental media around facilities, crafting environmental management plans, and maintaining periodic compliance records. Through our expert technical and laboratory support, we optimize your treatment processes in strict accordance with KSA’s regulatory and oversight standards."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "slug": "المرافق الصناعية",
+        "label": "Industrial Facilities Sector",
+        "image": "audience5.webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "Empowering factories and manufacturing facilities to balance peak production with strict environmental compliance. Our turnkey solutions cover stack and gaseous emissions testing, periodic environmental record-keeping, and streamlining NCEC permit issuance and renewals. We ensure your production lines run safely and legally, shielding your industrial investments from costly fines or operational shutdowns."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "slug": "محطات الطاقة والكهرباء",
+        "label": "Power & Energy Utilities",
+        "image": "audience6..webp",
+        "style": "",
+        "paragraphs": [
+          [
+            {
+              "text": "We provide power and electricity plants with the consulting and laboratory solutions required to ensure safe and sustainable operations. We assist you in environmental impact assessments for new projects or expansions, offer sustainability and ESG compliance consulting, and develop innovative strategies to control environmental footprints—thereby contributing to the protection of the surrounding environment and enhancing the operational efficiency of the plants."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "slug": "المستشفيات والمنشآت الطبية",
+        "label": "Healthcare & Medical Facilities EIA",
+        "image": "audience7.webp",
+        "style": "bulleted",
+        "paragraphs": [
+          [
+            {
+              "text": "Understanding the critical and sensitive nature of environmental compliance in healthcare, we deliver turnkey, specialized solutions for hospitals and medical centers, covering:"
+            },
+            {
+              "text": " Hazardous Medical Waste Management Consulting."
+            },
+            {
+              "text": " Facility-wide Air & Water Quality Monitoring."
+            },
+            {
+              "text": " Full Compliance Alignment with NCEC and Ministry of Health Regulations."
+            },
+            {
+              "text": " We safeguard your operations, ensuring a secure healing environment entirely free from legal and operational hazards."
+            }
+          ]
+        ]
+      }
+    ]
+  },
+
+
+
+  "clientsArticle": {
+    "mainTitle": "  Clients",
+    "main": "Home",
+        "list": [
+                {
+        "id": 2,
+        "slug": "شركة إيربرودكتس عبد الله هاشم للغازات الصناعية",
+        "label": "Air Products Abdullah Hashim Industrial Gases Co. (AHG)",
+        "logo":"Client2.3.webp",
+        "images":[
+          "Client2.1.webp",
+          "Client2.2.webp"
+          
+        ],
+        "style": "bulleted",
+        "intro":"The global leader in industrial and medical gases, technologies, and services. We take pride in our partnership, delivering cutting-edge environmental compliance and safety consulting solutions for their facilities to support their international vision for a sustainable energy transition and carbon reduction.",
+        "intro2":"Integrated Environmental Compliance Management for the Company, encompassing:",
+        "paragraphs": [
+          [
+            {
+              "text": "Conducting precise on-site inspections to monitor environmental practices and closely assess the nature of operational activities."
+            },
+            {
+              "text": "Drafting comprehensive environmental reports to document performance and guarantee absolute alignment with standard environmental benchmarks"
+            }
+          ]
+          
+        ],
+
+        "ending":"The consulting office's role centers on achieving peak environmental compliance and aligning workflow operations across the company's facilities with applicable regulatory and environmental requirements, ensuring safe and sustainable operations."
+      },
+            {
+        "id": 3,
+        "slug":" محطات وقود \"الدريس\"",
+        "label": "Aldrees Petrol Stations / For Aldrees Gas Stations",
+        "logo":"Client3.3.webp",
+        "images":[
+          "Client3.1.webp",
+          "Client3.2.webp"
+        ],
+        "style": "bulleted",
+        "intro":"One of the largest leading, Tadawul-listed companies in the energy, petroleum services, and logistics sectors. We take pride in our partnership, managing the integrated environmental portfolio for their widespread network of fuel stations and vital facilities across the Kingdom of Saudi Arabia, ensuring the highest standards of compliance and sustainability.",
+        "intro2":"Integrated Environmental Portfolio Management for Aldrees Fuel Stations Across the Kingdom of Saudi Arabia, encompassing:",
+        "paragraphs": [
+          [
+            {
+              "text": "Building an integrated framework to manage all environmental documents and records, ensuring absolute alignment with the standards and requirements of the National Center for Environmental Compliance (NCEC)."
+            },
+            {
+              "text": " Conducting regular data audits and reviewing operational processes across all station facilities to minimize environmental risks and ensure safe, sustainable performance."
+            },
+            {
+              "text": "  Delivering seamless and highly efficient environmental consulting and follow-up services to fully cover Aldrees’s extensive network of stations scattered throughout all regions of the Kingdom of Saudi Arabia."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "slug":" محطات وقود \"ميدان التنمية \"",
+        "label":" Maydan Al-Tanmiah Fuel Stations",
+        "logo":"Client5.3.webp",
+        "images":[
+          "Client5.1.webp",
+          "Client5.2.webp"
+            ],
+        "style": "bulleted",
+        "intro":"A benchmark for sustainable aquaculture and a pioneer in climate stress adaptation. Naqaa Al-Bee’ah is proud to partner with this vital entity, harnessing our environmental consulting and lab services to monitor marine ecosystems, deliver sustainability reporting, and secure the required environmental licenses to foster safe, responsible sector growth.",
+        "intro2":"Integrated Environmental Portfolio Management for the Stations, encompassing:",
+        "paragraphs": [
+          [
+            {
+              "text": "Delivering thorough, proactive environmental analyses to align operational activities with surrounding ecosystems."
+            },
+            {
+              "text": "Streamlining all regulatory procedures with official authorities to guarantee uninterrupted, legally compliant operations."
+            },
+            {
+              "text": "Documenting and auditing environmental performance to ensure strict adherence to standard compliance benchmarks."
+            },
+            {
+              "text": " This project spans across all branches and stations of the group nationwide throughout Saudi Arabia."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 1,
+        "slug": "الشركة التضامنية للإعمار والتجارة",
+        "label": "Al-Tadamuniah Power Generation Plant Project",
+        "logo":"Client1.1.webp",
+        "images":[
+          "Client1.webp"
+        ] ,
+        "intro":"A leading, trusted powerhouse in infrastructure and power generation. We take pride in being the strategic environmental consulting partner, providing integrated management plans that ensure their vital power plants operate with maximum environmental and operational efficiency.",
+        "intro2":"Environmental Compliance Management for Al-Tadamuniah Power Generation Plants, encompassing:",
+        "style":"bulleted",
+        "paragraphs": [
+          [
+            {
+              "text": "Conducting comprehensive technical studies to assess environmental impacts resulting from power generation, while developing innovative solutions to control thermal and gaseous emissions."
+            },
+            {
+              "text": " Managing and facilitating all regulatory and oversight procedures with relevant authorities to ensure the plants secure the necessary environmental permits for legal and sustainable operations."
+            },
+            {
+              "text": " Developing and implementing integrated Environmental Management Plans (EMP) that optimize resource "
+            }
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "slug":" شركة مرامر للمقاولات",
+        "label":" Maramer Contracting Company",
+        "logo":"Client4.2.webp",
+        "images":[
+          "Client4.1.webp"
+                ],
+        "style": "bulleted",
+        "intro":"A premier Saudi joint-stock leader in major construction and infrastructure. We are proud at Naqaa Al-Bee’ah to secure all their required environmental licenses and provide seamless field monitoring and compliance services for their large-scale projects.",
+        "intro2":"Environmental Impact Assessment (EIA) for the Wastewater Lifting ",
+        "paragraphs": [
+          [
+            {
+              "text": " Station ProjectAl-Kharj Governorate – Riyadh Region"
+            },
+            {
+              "text": " Preparing a comprehensive Environmental Impact Assessment study to guarantee the operational safety of the station. "
+            },
+            {
+              "text": " optimize emission and waste management efficiency, and achieve absolute compliance with the approved environmental regulations in the Riyadh Region."
+            }
+          ]
+        ]
+      },
+
+{
+  "id": 40,
+  "slug": "شركة طيف نجد للمقاولات",
+  "label": "Taif Najd Contracting Company",
+  "logo": "clientNew6.webp",
+
+  "style": "bulleted",
+  "intro": 
+    "Taif Najd Contracting Company is a Saudi national contractor specializing in construction, infrastructure development, and engineering projects. The company delivers integrated construction solutions while maintaining the highest standards of quality, operational excellence, and project management. Through its commitment to innovation, safety, and sustainable practices, the company actively supports the objectives of Saudi Vision 2030.",
+  "intro2":"As part of its commitment to environmental compliance and sustainable development, the company appointed Environmental Purity for Environmental Consultancy (EPECO) to undertake the environmental studies and consultancy services required for the project. The scope of work included :",
+  "paragraphs": [
+    [
+      {
+        "text":" preparation of an Environmental Impact Assessment (EIA)"
+      },
+      {
+        "text": "emissions monitoring and evaluation, assessment of the project's potential environmental impacts during both the construction and operational phases"
+      },
+      {
+        "text": "Development of effective mitigation measures to minimize environmental impacts and enhance overall environmental performance."
+      }
+    ]
+  ],
+  "ending": [
+
+    "EPECO's services also included the preparation of an Environmental Management Plan (EMP), the development of environmental monitoring and compliance programs, and waste management strategies to promote resource efficiency and responsible environmental practices.",
+    " In addition, EPECO provided technical support in fulfilling regulatory requirements and coordinating with the relevant authorities to obtain the necessary environmental permits and approvals, ensuring that the project is implemented in full compliance with the environmental regulations and sustainability standards of the Kingdom of Saudi Arabia."
+
+  ]
+},
+{
+  "id": 41,
+  "slug": "شركة القدية للإستثمار",
+  "label": "Qiddiya Investment Company (QIC)",
+  "logo": "client1New7.webp",
+
+  "style": "bulleted",
+
+
+
+  "intro": 
+    "تQiddiya Investment Company (QIC) is one of Saudi Arabia's leading developers of large-scale destination projects, spearheading the development of Qiddiya City as a world-class destination for entertainment, sports, and culture. Through its visionary developments, the company contributes to economic diversification and supports the objectives of Saudi Vision 2030. QIC is committed to the highest standards of quality, sustainability, and innovation throughout all phases of project development, with a strong focus on enhancing quality of life and preserving natural resources.",
+
+
+  "intro2":" As part of its commitment to environmental compliance, Qiddiya Investment Company appointed Environmental Purity for Environmental Consultancy (EPECO) to provide specialized environmental consultancy services for the project. The scope of work included Dust Monitoring Services:",
+
+
+
+  "paragraphs": [
+    [
+      {
+        "text":"comprising continuous monitoring of ambient particulate matter concentrations (PM₁₀, PM₂.₅, and Total Suspended Particulates (TSP)) within and around the project area."
+      },
+      {
+        "text": "The consultancy also involved analyzing monitoring data in conjunction with meteorological parameters, including wind speed and wind direction, to evaluate dust dispersion patterns and assess the project's environmental impact. Based on the findings, EPECO developed practical dust mitigation measures and prepared regulatory compliance reports in accordance with the requirements of the relevant environmental authorities."
+      }
+
+    ]
+  ],
+  "ending": [
+
+    "In addition, EPECO provided technical support in fulfilling environmental regulatory requirements and coordinating with the competent authorities to obtain the necessary environmental permits and approvals.",
+
+    "The consultancy also included the preparation of a comprehensive Environmental Management Plan (EMP) aimed at optimizing resource utilization, minimizing waste generation, and strengthening environmental, occupational, and community safety practices, ensuring that the project is implemented in full compliance with the environmental regulations and sustainability standards of the Kingdom of Saudi Arabia."
+
+  ]
+},
+{
+  "id": 42,
+  "slug": "شركة سالكو السعودية للمقاولات",
+  "label": "SALCO Saudi Contracting Company",
+  "logo": "clientNew8.webp",
+
+  "style": "bulleted",
+
+
+
+  "intro": 
+    "تSALCO Saudi Contracting Company is one of the Kingdom of Saudi Arabia's leading national contractors, with extensive experience in delivering construction and infrastructure projects. The company provides integrated engineering solutions in accordance with the highest standards of quality, efficiency, and operational excellence. ",
+
+
+  "intro2":"Through its commitment to innovation, sustainable construction practices, and effective project management, SALCO actively contributes to the realization of Saudi Vision 2030.",
+
+
+  "intro3":"As part of its commitment to enhancing the environmental performance of its projects, SALCO engaged Environmental Purity for Environmental Consultancy (EPECO) to provide comprehensive environmental consultancy services. The scope of work included:",
+  "paragraphs": [
+    [
+      {
+        "text": "The preparation of an Environmental Impact Assessment (EIA)"
+      },
+      {
+        "text": "Identification and evaluation of potential emission sources"
+      },
+      {
+        "text": " Assessment of environmental risks associated with project activities, and the development of practical mitigation measures to minimize environmental impacts while ensuring full compliance with applicable environmental regulations and standards."
+      }
+    ]
+  ],
+  "ending": [
+
+    "EPECO's consultancy services also included the development of environmental monitoring and compliance programs, the establishment of waste management strategies and resource conservation measures, and the preparation of a comprehensive Environmental Management Plan (EMP). ",
+    "The plan was designed to implement preventive measures, promote continuous environmental improvement, strengthen regulatory compliance, and support the project's environmental sustainability throughout both the construction and operational phases. "
+
+  ]
+},
+{
+  "id": 43,
+  "slug": "شركة الفنار لإنشاءات",
+  "label": "Alfanar Construction",
+  "logo": "clientNew9.webp",
+  "style": "bulleted",
+  "intro": 
+    "Alfanar Construction is a leading construction company specializing in the delivery of building, infrastructure, and civil engineering projects across the Kingdom of Saudi Arabia. The company adopts advanced engineering solutions and efficient construction methodologies, with a strong commitment to quality, operational excellence, and the highest standards of health, safety, and sustainability, supporting the Kingdom's ongoing urban development and the objectives of Saudi Vision 2030.",
+  "intro2":"Recognizing the environmental aspects associated with construction activities, alfanar Construction appointed Environmental Purity for Environmental Consultancy (EPECO) to undertake the environmental studies and consultancy services required for the project. The scope of work included: ",
+  "paragraphs": [
+    [
+      {
+        "text": "Conducting a comprehensive environmental baseline assessment of the project site."
+      },
+      {
+        "text": "Evaluating the potential impacts of construction activities on the surrounding environment."
+      },
+      {
+        "text": "Identifying appropriate mitigation and preventive measures to minimize environmental impacts and maintain ecological balance."
+      }
+
+    ]
+  ],
+  "ending": [
+
+    "EPECO's consultancy services also included the development of environmental monitoring programs throughout the construction phase, the preparation of construction waste management procedures, the implementation of dust and noise control measures, and the development of environmental emergency response plans. ",
+    "These services ensured that the project was executed in full compliance with applicable environmental regulations while achieving the highest standards of environmental performance, regulatory compliance, and sustainable project delivery."
+  ]
+},
+      {
+        "id": 6,
+        "slug":" شركة تبوك للأسماك (مبادرة إجهاد المناخ)",
+        "label":" Tabuk Fisheries Company (Climate Stress Initiative)",
+        "logo":"Client6.2.webp",
+        "images":[
+          "Client6.1.webp"
+        ],
+        "style": "bulleted",
+        "intro":"The newest and most ambitious cultural and urban destination in Riyadh, and one of the major giga-projects establishing the concept of smart sustainability globally. We are proud to deliver advanced engineering solutions to prepare and manage the Construction Environmental Management Plan (CEMP), contributing to the building of an architectural icon that harmonizes with the environmental standards of Saudi Arabia’s Vision 2030.",
+        "paragraphs": [
+          [
+            {
+              "text": "Preparing integrated Environmental and Social Impact Assessment (ESIA) studies to ensure the project’s smart urban development harmonizes with surrounding ecosystems, while achieving net-zero carbon emissions in full alignment with Saudi Vision 2030."
+            },
+            {
+              "text": "Integrating cutting-edge smart environmental monitoring technologies to track air quality, optimize water resource management, and achieve absolute efficiency in waste management and recycling within the destination."
+            },
+            {
+              "text": " Aligning all construction and operational activities with the strict regulations of the National Center for Environmental Compliance (NCEC) and sovereign authorities, guaranteeing the building of a sustainable urban environment for future generations."
+            }
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "slug":"مشروع المربع الجديد ",
+        "label":" New Murabba Project",
+        "logo":"Client7.3.webp",
+        "images":[
+          "Client7.1.webp",
+          "Client7.2.webp"
+        ],
+        "style": "bulleted",
+        "intro": "Riyadh’s latest and most ambitious urban landmark, and a global beacon for smart sustainability. We take pride in providing cutting-edge engineering solutions for the development and management of the Construction Environmental Management Plan (CEMP), helping shape an architectural icon aligned with Saudi Vision 2030 environmental benchmarks.",
+        "paragraphs": [
+          [
+            {
+              "text": "Preparing integrated Environmental and Social Impact Assessment (ESIA) studies to ensure the project’s smart urban development harmonizes with surrounding ecosystems, while achieving net-zero carbon emissions in full alignment with Saudi Vision 2030."
+            },
+            {
+              "text": "Integrating cutting-edge smart environmental monitoring technologies to track air quality, optimize water resource management, and achieve absolute efficiency in waste management and recycling within the destination."
+            },
+            {
+              "text": " Aligning all construction and operational activities with the strict regulations of the National Center for Environmental Compliance (NCEC) and sovereign authorities, guaranteeing the building of a sustainable urban environment for future generations."
+            }
+          ]
+        ]
+      },
+
+      {
+        "id": 8,
+        "slug":" شركة ضرماء للكهرباء",
+        "label":"Dhurma Electricity Company",
+        "logo":"clientNew10Logo.webp",
+        "images":[
+          "clientNew10.webp"
+        ],
+        "style": "bulleted",
+
+        "intro":"Dhurma Electricity Company is a key player in the Kingdom of Saudi Arabia's energy sector, contributing to the development, operation, and management of power generation, transmission, and distribution projects. The company is committed to adopting advanced technologies that enhance operational efficiency, service reliability, and energy sustainability, while supporting the objectives of Saudi Vision 2030 and the Kingdom's growing demand for reliable energy infrastructure.",
+
+        "intro2":"Recognizing the importance of balancing industrial development with environmental protection, Dhurma Electricity Company appointed Environmental Purity for Environmental Consultancy (EPECO) to provide specialized environmental consultancy services for the project. The scope of work included:",
+
+        "paragraphs": [
+          [
+            {
+              "text": " Assessing the environmental aspects associated with power generation activities."
+            },
+          
+            
+            {
+              "text": "Evaluating the impacts of air emissions, thermal emissions, and environmental noise generated by the project."
+            },
+          
+            
+            {
+              "text": "Assessing the effectiveness of environmental control systems and recommending practical measures to reduce the project's environmental footprint and enhance environmental performance."
+            }
+          ]
+        ],
+
+        "ending":"Through these studies, EPECO provided the technical expertise required to support environmental compliance, promote sustainable operational practices, and ensure that the project meets the applicable environmental regulations and standards of the Kingdom of Saudi Arabia."
+      },
+
+      {
+        "id": 80,
+        "slug":" المدينة الصناعية بضرماء",
+        "label":"Dhurma Industrial City",
+        "logo":"Client8.2.webp",
+
+        "style": "bulleted",
+
+        "intro":"Dhurma Industrial City is one of the Kingdom of Saudi Arabia's strategic industrial developments, established to support industrial growth by providing an integrated investment environment that attracts a wide range of industrial activities. Through the development of advanced infrastructure and sustainable operational services, the project contributes to economic diversification and aligns with the objectives of Saudi Vision 2030.",
+        "intro2":"To ensure that the industrial city was developed in accordance with the highest environmental standards and international best practices, Environmental Purity for Environmental Consultancy (EPECO) was appointed to deliver a comprehensive package of environmental studies and technical consultancy services. ",
+
+        "intro3":"The scope of work included:",
+
+        "paragraphs": [
+          [
+            {
+              "text": "Preparation of the Environmental Impact Assessment (EIA)."
+            },
+          
+            
+            {
+              "text": "Conducting Biodiversity Studies to evaluate the site's ecosystems and natural resources and to develop appropriate conservation and protection measures."
+            }
+          ,
+            
+            {
+              "text": "Carrying out Hydrological Studies to analyze stormwater drainage characteristics, assess flood risks, and recommend effective engineering solutions for surface water management."
+            },
+          
+            
+            {
+              "text": "Preparing Traffic Impact Studies (TIS) to evaluate the efficiency of the road network and assess the anticipated traffic generated by the operation of the industrial city."
+            }
+          ,
+            
+            {
+              "text": " Developing a comprehensive Environmental Management Plan (EMP)."
+            }
+          ,
+            
+            {
+              "text": "Establishing environmental monitoring programs and industrial waste management strategies."
+            }
+          ]
+        ],
+
+        "ending":" These consultancy services ensured compliance with all applicable environmental regulations and statutory requirements while supporting the long-term environmental sustainability of the industrial city throughout its development and operational phases."
+      },
+
+            {
+        "id": 81,
+        "slug":" شركة السويدي الكتريك لنقل وتوزيع الطاقه",
+        "label":"Elsewedy Electric for Power Transmission & Distribution",
+        "logo":"clientNew11Logo.webp",
+
+        "style": "bulleted",
+
+        "intro":"Elsewedy Electric for Power Transmission & Distribution is a leading engineering and EPC company specializing in power transmission and distribution projects. ",
+        "intro2":"The company delivers integrated solutions covering the design and construction of substations, transmission lines, and distribution networks, utilizing advanced engineering technologies that enhance the efficiency, reliability, and resilience of power systems while supporting sustainable infrastructure development across the Kingdom of Saudi Arabia.",
+        "intro3":"To ensure full compliance with environmental and regulatory requirements, Elsewedy Electric appointed Environmental Purity for Environmental Consultancy (EPECO) to provide comprehensive environmental consultancy services for the project. The scope of work included:",
+
+        "paragraphs": [
+        [
+
+          {
+            "text": "Assessing the environmental sensitivity of the project sites."
+          },
+        
+          
+          {
+            "text": "Evaluating the potential environmental impacts associated with both construction and operational activities."
+          },
+        
+          
+          {
+            "text": "Assessing the effects of electromagnetic fields (EMF), environmental noise, and ambient air quality."
+          }
+        ,
+          
+          {
+            "text": "Developing practical mitigation measures and environmental management strategies to minimize environmental impacts and protect the surrounding environment."
+          }
+        ]
+          
+        ],
+
+        "ending":"In addition, EPECO developed environmental monitoring programs for both the construction and operational phases, established procedures for the management of construction materials and waste, prepared environmental emergency response plans, and developed a comprehensive Environmental Management Plan (EMP). These services were designed to ensure continuous environmental performance improvement, maintain compliance with applicable environmental regulations and standards, and support the long-term sustainability of the project."
+      }
+    ]
+  },
+
+
+  "contact": {
+    "mainTitle": "Contact Us",
+    "main": "Home",
+    "title": "Get in Touch",
+    "description": "Feel free to contact us. We are happy to answer your inquiries.",
+    "name": {
+      "label": "Name",
+      "required": "Name is required",
+      "min": "Name must be at least 3 characters",
+      "max": "Name must not exceed 50 characters"
+    },
+    "reason": {
+      "label": "Reason for Contact",
+      "required": "Reason for contact is required"
+    },
+    "email": {
+      "label": "Email Address",
+      "required": "Email address is required",
+      "invalid": "Please enter a valid email address"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "required": "Phone number is required",
+      "invalid": "Please enter a valid phone number"
+    },
+    "message": {
+      "label": "Message",
+      "required": "Message is required",
+      "min": "Message must be at least 10 characters"
+    },
+    "button": "Send"
+  },
+  "contactInfo": {
+    "successMessage": "Our team is ready to leverage our expertise and resources to best serve your needs. Please complete your inquiry and share a few details below, and we will get back to you shortly.",
+    "complaints": {
+      "title": "Feedback and Inquiries",
+      "phone1": "+96653 133 8566",
+      "phone2": "+96658 010 8442"
+    },
+    "email": {
+      "title": "Email",
+      "emails": [
+        "Purity@getes-ksa.com",
+        "info@epco.sa"
+      ]
+    },
+    "headOffice": {
+      "title": "Corporate Headquarter",
+      "address": "Al Rabwah District, Riyadh, Saudi Arabia",
+      "phone1": "+96653 133 8566",
+      "phone2": "+96658 010 8442"
+    },
+    "easternRegion": {
+      "title": "Eastern Province",
+      "address": "Dammam, Saudi Arabia",
+        "phones":[
+        "+96653 613 8233",
+        "+96656 092 5194"
+      ],
+      "email": "info@epco.sa"
+    },
+    "workingHours": {
+      "title": "Business Hours",
+      "days": "Friday – Saturday: Closed",
+      "hours": "Sunday – Thursday: 8:00 AM – 4:00 PM"
+    },
+    "social": {
+      "title": "Follow us",
+      "map": "Our Geographic Presence"
+    }
+  },
+  "clients": {
+    "mainTitle": " Clients",
+    "main": "Home",
+    "title": " They Trust US",
+    "link":"Complete Client Portfolio  ",
+
+    "description": "Proudly trusted by leading government entities and private corporations across the Kingdom of Saudi Arabia.",
+    "question": "Our Clients' Voices",
+    "questionSub": "Real feedback from success testimonials who trust our expertise in safeguarding the environment.",
+    "reviews": [
+      {
+        "review": "EPECO conducted the Environmental Impact Assessment (EIA) for our industrial facilities, delivering an exceptional level of professionalism and report precision. Their team perfectly balances technical depth with timely delivery.",
+        "color": "dark"
+      },
+      {
+        "review": "EPECO helped us obtain the required environmental licenses for our development project efficiently and to the highest standards. Their deep knowledge of Saudi environmental regulations is unmatched in the industry.",
+        "color": "light"
+      },
+      {
+        "review": "Through EPECO’s professional Environmental Impact Assessment (EIA) studies, we successfully enhanced our operational workforce's efficiency. Their customized environmental solutions seamlessly align with local market requirements and fully support Saudi Vision 2030.",
+        "color": "light"
+      }
+    ]
+  },
+  
+  "certifications":{
+        "mainTitle": "Certifications",
+    "main": "Home",
+    "title": "Our Credentials",
+    "description": "Our compliance and certifications reflect our commitment to the highest environmental standards"
+  }
+}
