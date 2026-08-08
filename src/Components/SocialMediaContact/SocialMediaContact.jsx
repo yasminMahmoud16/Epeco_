@@ -36,7 +36,7 @@ export default function SocialMediaContact() {
         <div className="max-w-4xl mx-auto p-4 md:p-8 space-y-6 md:space-y-8">
           {/* Intro paragraph */}
           <p
-            className={`text-body leading-[1.8] text-sm md:text-lg text-[#1A5C2C] font-normal   ${isArabic ? "text-right" : "text-left"}  max-w-2xl`}
+            className={`text-body leading-[1.8] text-sm md:text-lg text-[#1A5C2C] font-normal   ${isArabic ? "text-right" : "text-left"}  max-w-2xl text-justify leading-wider whitespace-break-spaces`}
           >
             {t("contactInfo.successMessage")}
           </p>
@@ -59,12 +59,12 @@ export default function SocialMediaContact() {
                   >
                     <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
 
-                    <span
-                      className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
+                    <p
+                      className="text-xs md:text-sm text-[#1A5C2C] font-semibold font-RobotoCondensed"
                       dir="ltr"
                     >
                       {phone}
-                    </span>
+                    </p>
                   </div>
                 ))}
               </div>
@@ -84,9 +84,9 @@ export default function SocialMediaContact() {
                     className="flex items-center justify-start gap-2"
                   >
                     <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
-                    <span className="text-xs md:text-sm text-[#1A5C2C] font-semibold truncate text-left">
+                    <p className="text-xs md:text-sm text-[#1A5C2C] font-semibold truncate text-left font-RobotoCondensed">
                       {email}
-                    </span>
+                    </p>
                   </div>
                 ))}
               </div>
@@ -108,7 +108,7 @@ export default function SocialMediaContact() {
                   className="flex items-center justify-start gap-1 text-xs md:text-sm text-gray-500"
                 >
                   <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
-                  <p className="font-semibold text-[#1A5C2C]">
+                  <p className="font-semibold text-[#1A5C2C] font-RobotoCondensed">
                     {t("contactInfo.headOffice.address")}
                   </p>
                 </div>
@@ -120,7 +120,7 @@ export default function SocialMediaContact() {
                     >
                       <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
                       <p
-                        className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
+                        className="text-xs md:text-sm text-[#1A5C2C] font-semibold font-RobotoCondensed"
                         dir="ltr"
                       >
                         {phone}
@@ -144,7 +144,7 @@ export default function SocialMediaContact() {
                   className="flex items-center justify-start gap-1 text-xs md:text-sm text-gray-500 "
                 >
                   <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
-                  <p className="font-semibold text-[#1A5C2C]">
+                  <p className="font-semibold text-[#1A5C2C] font-RobotoCondensed">
                     {t("contactInfo.easternRegion.address")}
                   </p>
                 </div>
@@ -159,7 +159,7 @@ export default function SocialMediaContact() {
 
                           <p
                             key={index}
-                            className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
+                            className="text-xs md:text-sm text-[#1A5C2C] font-semibold font-RobotoCondensed"
                             dir="ltr"
                           >
                             {phone}
@@ -173,9 +173,9 @@ export default function SocialMediaContact() {
                     className="flex items-center justify-start gap-2"
                   >
                     <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
-                    <span className="text-xs md:text-sm text-[#1A5C2C] font-semibold">
+                    <p className="text-xs md:text-sm text-[#1A5C2C] font-semibold font-RobotoCondensed">
                       {t("contactInfo.easternRegion.email")}
-                    </span>
+                    </p>
                   </div>
                 </div>
               </div>

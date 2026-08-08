@@ -35,7 +35,7 @@ export default function ContactForm() {
           <h2 className="text-2xl font-normal text-[#1A5C2C] mb-2 leading-none">
             {t("contact.title")}
           </h2>
-          <p className="text-sm text-[#6B6B6B]  leading-none font-normal my-6">
+          <p className="text-sm text-[#6B6B6B]   font-normal my-6 whitespace-break-spaces leading-tight">
             {t("contact.description")}
           </p>
 

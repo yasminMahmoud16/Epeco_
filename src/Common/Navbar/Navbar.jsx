@@ -25,12 +25,12 @@ export default function Navbar() {
       >
         <div
           ref={menuRef}
-           className="flex flex-wrap lg:flex-nowrap items-center justify-between lg:justify-evenly "
+          className="flex flex-wrap lg:flex-nowrap items-center justify-between lg:justify-evenly "
         >
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 mr-3 mt-3 w-10 h-10 justify-center text-sm text-body rounded-xl lg:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-title"
+            className={`inline-flex items-center p-2 ${isArabic ? "mr-3" : "ml-3"}  my-3 w-10 h-10 justify-center text-sm text-body rounded-xl lg:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-title`}
             aria-expanded={isOpen}
           >
             <span className="sr-only">Open main menu</span>
@@ -175,11 +175,11 @@ export default function Navbar() {
             }`}
           >
             <Link to={"/"}>
-            <img
-              src={logo}
-              className="w-full object-fill"
-              alt={t("navbar.logo")}
-            />
+              <img
+                src={logo}
+                className="w-full object-fill"
+                alt={t("navbar.logo")}
+              />
             </Link>
           </div>
 
@@ -191,7 +191,7 @@ export default function Navbar() {
             } order-4 w-full lg:block lg:w-auto lg:order-none`}
           >
             <ul
-              className="
+              className={`
 
     font-medium
     flex
@@ -207,8 +207,8 @@ export default function Navbar() {
     bg-neutral-secondary-soft
     lg:bg-neutral-primary
     gap-2
-
-"
+ ${isArabic ? "" : "font-RobotoCondensed"}
+              `}
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
@@ -280,10 +280,10 @@ export default function Navbar() {
             </ul>
             {/* Mobile menu */}
             {isOpen && (
-              <div className="lg:hidden w-full bg-neutral-secondary-soft rounded-base mt-2 p-4">
-                <button className="bg-[#2D7A45] py-2.5 px-5 rounded-2xl text-[#F0EDE6] text-lg font-normal w-full transition-all duration-300 hover:bg-[#25683A]">
-                  {t("ConsulationRequest")}
-                </button>
+              <div className="lg:hidden w-full bg-neutral-secondary-soft rounded-base mt-2 p-4  flex  flex-col items-center justify-center gap-2">
+                <Link to={t("navbarPath.ContactUs")} className="bg-[#2D7A45] py-2.5 px-5 rounded-2xl text-[#F0EDE6] text-lg font-normal w-full transition-all duration-300 hover:bg-[#25683A] text-center">
+                  {t("navbar.ConsulationRequest")}
+                </Link>
 
                 <div className="flex items-center justify-center gap-4 mt-4">
                   <LangSwitchIcon />
@@ -300,8 +300,8 @@ export default function Navbar() {
 
           {/* requests button */}
           <div>
-            <Link to={"/contact"}
-              
+            <Link
+              to={t("navbarPath.ContactUs")}
               className={`hidden lg:block bg-[#2D7A45] lg:py-1 lg:px-1   xl:px-5 xl:mr-2 rounded-2xl text-[#F0EDE6]  
             lg:text-md lg:ml-2  xl:text-xl font-normal transition-all duration-300 hover:bg-[#25683A] hover:cursor-pointer ${isArabic ? "xl:py-2.5" : "font-RobotoCondensed rounded-3xl "}`}
             >
