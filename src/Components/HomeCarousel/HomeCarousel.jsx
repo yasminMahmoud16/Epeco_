@@ -85,18 +85,21 @@ export default function HomeCarousel() {
         </Swiper>
 
         <div
-          className={`  lg:mt-0 absolute  inset-0 z-10 flex  justify-between items-center lg:items-end py-6`}
+          className={`  lg:mt-0 absolute  inset-0 z-10 flex gap-4  justify-between items-center lg:items-end py-6`}
         >
           <div
             className={`${
               isArabic ? "mr-2 md:mr-8" : "ml-2 md:ml-8"
-            } z-10  w-[60%]  md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-4 border py-5 rounded-3xl border-[#5FCF80] bg-[#7AAB87]/20 backdrop-blur-md`}
+            } z-10  w-[60%]  md:max-w-lg px-4 md:px-9 flex flex-col gap-1 md:gap-4 md:border py-5 rounded-3xl
+            
+            bg-[#7aab872b]  backdrop-blur-[1px] shadow md:shadow-none
+              md:border-[#5FCF80] md:bg-[#7AAB87]/20 md:backdrop-blur-md`}
           >
             <div
               className={`${
                 isArabic
-                  ? "font-bold text-xs xl:text-xl flex items-center justify-center"
-                  : "font-RobotoCondensed flex items-center justify-center text-xs xl:text-lg xl:w-96 "
+                  ? "font-bold text-[10px] xl:text-xl flex items-center justify-center"
+                  : "font-RobotoCondensed flex items-center justify-center text-[10px] xl:text-lg xl:w-96 whitespace-nowrap md:whitespace-break-spaces"
               } bg-[#2D7A45] text-white px-3 py-1 xl:px-6 xl:py-3 rounded-2xl w-fit min-h-5 xl:min-h-16 `}
             >
               {t("home.subTitleHero")}
@@ -108,23 +111,26 @@ export default function HomeCarousel() {
                   isArabic
                     ? "text-md md:text-2xl xl:text-5xl font-semibold"
                     : "font-RobotoCondensed text-sm md:text-2xl xl:text-4xl font-semibold "
-                } text-[#1A5C2C] leading-tight`}
+                } text-white md:text-[#1A5C2C] leading-tight
+                 [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] md:[-webkit-text-stroke:0px]
+                
+                `}
               >
                 {t("home.titleHero1")}
               </h1>
 
-              <h1 className="text-sm md:text-2xl xl:text-4xl font-semibold text-white leading-tight mt-1 md:mt-4">
+              <h1 className="text-sm md:text-2xl xl:text-4xl font-semibold text-white [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] md:[-webkit-text-stroke:0px] leading-tight mt-1 md:mt-4">
                 {t("home.titleHero2")}
               </h1>
             </div>
 
-            <div className=" w-full">
+            <div className=" w-full hidden md:block">
               <p
                 className={`${
                   isArabic
                     ? "text-xs md:text-xl xl:text-2xl"
                     : "font-RobotoCondensed text-xs xl:text-lg"
-                } font-light text-white max-w-lg leading-relaxed`}
+                } font-light text-white max-w-lg leading-relaxed `}
               >
                 {t("home.descriptionHero")}
               </p>
@@ -135,19 +141,36 @@ export default function HomeCarousel() {
             <div className="flex items-center gap-4">
               <Link
                 to={"/about"}
-                className="flex items-center justify-center w-20 h-6 md:w-24 md:h-10 xl:w-40 xl:h-16 rounded-2xl xl:rounded-3xl border border-[#5FCF80] bg-white/10 backdrop-blur-md text-[10px] xl:text-xl text-[#5FCF80] transition hover:bg-white/40 cursor-pointer shadow"
+                className="flex items-center justify-center w-20 h-7 md:w-24 md:h-10 xl:w-40 xl:h-16 
+                font-bold
+                py-3 md:py-0
+                rounded-xl md:rounded-2xl xl:rounded-3xl border 
+                text-white [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] md:[-webkit-text-stroke:0px]
+                border-white
+                md:border-[#5FCF80] bg-white/10 backdrop-blur-md text-[10px] xl:text-xl md:text-[#5FCF80] transition hover:bg-white/40 cursor-pointer shadow"
               >
                 {t("home.buttonHero1")}
               </Link>
               <Link
                 to={"/services"}
-                className="flex items-center justify-center w-22 h-6 md:w-24 md:h-10 xl:w-40 xl:h-16 rounded-2xl xl:rounded-3xl border border-[#eff0efa5] bg-white/10 backdrop-blur-md text-[10px] xl:text-xl text-[#F0EDE6] transition hover:bg-white/40 cursor-pointer shadow"
+                className="flex items-center justify-center w-22 h-7 md:w-24 md:h-10 xl:w-40 xl:h-16 rounded-xl md:rounded-2xl xl:rounded-3xl 
+                py-3 md:py-0 font-bold
+                [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] md:[-webkit-text-stroke:0px]
+                md:border border-[#eff0efa5] bg-white/10 backdrop-blur-md text-[10px] xl:text-lg text-[#F0EDE6] transition hover:bg-white/40 cursor-pointer shadow"
               >
                 {t("home.buttonHero2")}
                 {isArabic ? (
-                  <IoIosArrowRoundBack />
+                  <IoIosArrowRoundBack
+                    className="text-white font-bold"
+                    stroke="#000000"
+                    strokeWidth={isArabic ? 8 : 0}
+                  />
                 ) : (
-                  <IoIosArrowRoundForward />
+                  <IoIosArrowRoundForward
+                    className="text-white font-bold"
+                    stroke="#000000"
+                    strokeWidth={isArabic ? 8 : 0}
+                  />
                 )}
               </Link>
             </div>
