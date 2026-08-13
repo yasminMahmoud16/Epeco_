@@ -78,8 +78,9 @@ export default function SocialMediaContact() {
                 {t("contactInfo.email.title")}
               </h3>
               <div className="space-y-2 md:space-y-3">
-                {emails.map((email) => (
+                {emails.map((email,index) => (
                   <div
+                    key={index}
                     dir="ltr"
                     className="flex items-center justify-start gap-2"
                   >
@@ -113,8 +114,9 @@ export default function SocialMediaContact() {
                   </p>
                 </div>
                 <div className="space-y-2 md:space-y-3">
-                  {headsNums.map((phone) => (
+                  {headsNums.map((phone, index) => (
                     <div
+                      key={index}
                       dir="ltr"
                       className="flex items-start  justify-start gap-2"
                     >
@@ -153,19 +155,20 @@ export default function SocialMediaContact() {
                     {/* ================================================== */}
 
                     {easternRegionPhones.map((phone, index) => (
-                      <>
-                        <div className="flex items-center gap-2">
+                      
+                        <div
+                          key={index}
+                          className="flex items-center gap-2">
                           <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
 
                           <p
-                            key={index}
                             className="text-xs md:text-sm text-[#1A5C2C] font-semibold font-RobotoCondensed"
                             dir="ltr"
                           >
                             {phone}
                           </p>
                         </div>
-                      </>
+                      
                     ))}
                   </div>
                   <div

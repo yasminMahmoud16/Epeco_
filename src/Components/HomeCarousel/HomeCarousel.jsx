@@ -90,10 +90,10 @@ export default function HomeCarousel() {
           <div
             className={`${
               isArabic ? "mr-2 md:mr-8" : "ml-2 md:ml-8"
-            } z-10  w-[60%]  md:max-w-lg px-4 md:px-9 flex flex-col gap-1 md:gap-4 md:border py-5 rounded-3xl
+            } z-10  w-[60%]  md:max-w-lg px-4 md:px-9 flex flex-col gap-1 md:gap-4 lg:border py-5 rounded-3xl
             
-            bg-[#7aab872b]  backdrop-blur-[1px] shadow md:shadow-none
-              md:border-[#5FCF80] md:bg-[#7AAB87]/20 md:backdrop-blur-md`}
+            bg-[#7aab872b]  backdrop-blur-[1px] shadow lg:shadow-none
+              lg:border-[#5FCF80] lg:bg-[#7AAB87]/20 lg:backdrop-blur-md`}
           >
             <div
               className={`${
@@ -111,20 +111,20 @@ export default function HomeCarousel() {
                   isArabic
                     ? "text-md md:text-2xl xl:text-5xl font-semibold"
                     : "font-RobotoCondensed text-sm md:text-2xl xl:text-4xl font-semibold "
-                } text-white md:text-[#1A5C2C] leading-tight
-                 [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] md:[-webkit-text-stroke:0px]
+                } text-white lg:text-[#1A5C2C] leading-tight
+                 [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] lg:[-webkit-text-stroke:0px]
                 
                 `}
               >
                 {t("home.titleHero1")}
               </h1>
 
-              <h1 className="text-sm md:text-2xl xl:text-4xl font-semibold text-white [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] md:[-webkit-text-stroke:0px] leading-tight mt-1 md:mt-4">
+              <h1 className="text-sm md:text-2xl xl:text-4xl font-semibold text-white [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] lg:[-webkit-text-stroke:0px] leading-tight mt-1 md:mt-4">
                 {t("home.titleHero2")}
               </h1>
             </div>
 
-            <div className=" w-full hidden md:block">
+            <div className=" w-full hidden lg:block">
               <p
                 className={`${
                   isArabic
@@ -144,10 +144,10 @@ export default function HomeCarousel() {
                 className="flex items-center justify-center w-20 h-7 md:w-24 md:h-10 xl:w-40 xl:h-16 
                 font-bold
                 py-3 md:py-0
-                rounded-xl md:rounded-2xl xl:rounded-3xl border 
-                text-white [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] md:[-webkit-text-stroke:0px]
+                rounded-xl lg:rounded-2xl xl:rounded-3xl border 
+                text-white [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] lg:[-webkit-text-stroke:0px]
                 border-white
-                md:border-[#5FCF80] bg-white/10 backdrop-blur-md text-[10px] xl:text-xl md:text-[#5FCF80] transition hover:bg-white/40 cursor-pointer shadow"
+                lg:border-[#5FCF80] bg-white/10 backdrop-blur-md text-[10px] xl:text-xl lg:text-[#5FCF80] transition hover:bg-white/40 cursor-pointer shadow"
               >
                 {t("home.buttonHero1")}
               </Link>
@@ -155,8 +155,8 @@ export default function HomeCarousel() {
                 to={"/services"}
                 className="flex items-center justify-center w-22 h-7 md:w-24 md:h-10 xl:w-40 xl:h-16 rounded-xl md:rounded-2xl xl:rounded-3xl 
                 py-3 md:py-0 font-bold
-                [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] md:[-webkit-text-stroke:0px]
-                md:border border-[#eff0efa5] bg-white/10 backdrop-blur-md text-[10px] xl:text-lg text-[#F0EDE6] transition hover:bg-white/40 cursor-pointer shadow"
+                [-webkit-text-stroke:1px_#000000] [paint-order:stroke_fill] lg:[-webkit-text-stroke:0px]
+                lg:border border-[#eff0efa5] bg-white/10 backdrop-blur-md text-[10px] xl:text-lg text-[#F0EDE6] transition hover:bg-white/40 cursor-pointer shadow"
               >
                 {t("home.buttonHero2")}
                 {isArabic ? (

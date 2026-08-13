@@ -4,11 +4,13 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import clipGroup from "../../assets/Images/Clip path group.webp";
 import map from "../../assets/Images/map.webp";
 import useJson from "../../Hooks/useJson.js";
+import { useState } from "react";
 
 export default function ContactForm() {
   const { isArabic ,t} =useJson();
 
-
+const [status, setStatus] = useState("");
+// const [ isSending,setIsSending] = useState(false);
 
     const schema = validationContactSchema(t);
     const {
@@ -22,12 +24,31 @@ export default function ContactForm() {
 
 
 
-    const onSubmit = () => {
+  const onSubmit = async (data) => {
+    // setIsSending(true);
+    setStatus("");
+  const response = await fetch("https://formspree.io/f/maewjgww", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify(data),
+  });
 
-        // handle actual submission here (API call, etc.)
-      reset();
-
-    };
+  if (response.ok) {
+    setStatus("success");
+    reset();
+    setTimeout(() => {
+      setStatus("");
+    }, 3000);
+  } else {
+    setStatus("error");
+    setTimeout(() => {
+      setStatus("");
+    }, 3000);
+  }
+};
 
     return (
       <>
@@ -145,10 +166,28 @@ export default function ContactForm() {
             <div className="flex justify-start">
               <button
                 type="submit"
-                className="bg-[#2D7A45] hover:bg-[#256339] text-white font-semibold px-8 py-2.5 rounded-lg transition-colors"
+                className="bg-[#2D7A45] hover:bg-[#256339] text-white font-semibold px-8 py-2.5 rounded-lg transition-colors cursor-pointer"
               >
                 {t("contact.button")}
               </button>
+            </div>
+
+            <div>
+              {status === "success" && (
+                <p className="text-green-600 text-sm font-semibold mt-3">
+                  {isArabic
+                    ? "تم إرسال الرسالة بنجاح"
+                    : "Message sent successfully"}
+                </p>
+              )}
+
+              {status === "error" && (
+                <p className="text-red-500 text-sm font-semibold mt-3">
+                  {isArabic
+                    ? "حدث خطأ، برجاء المحاولة مرة أخرى"
+                    : "Something went wrong. Please try again."}
+                </p>
+              )}
             </div>
           </form>
         </div>
