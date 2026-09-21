@@ -6,11 +6,12 @@ import useUrl from "../../Hooks/useUrl.js";
 import useJson from "../../Hooks/useJson.js";
 
 export default function HomeService() {
-
-  const { isArabic ,t} =useJson();
+  const { isArabic, t } = useJson();
   const { baseUrl } = useUrl();
   const galleries = t("services.galleries", { returnObjects: true });
-
+console.log(galleries);
+console.log(baseUrl);
+console.log(`${baseUrl}${galleries[0].galleryimage}`);
 
   return (
     <>
