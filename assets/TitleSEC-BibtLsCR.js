@@ -1,1 +1,0 @@
-import{n as e}from"./index-BsiaIeV5.js";var t=e();function n({title:e,className:n=``}){return(0,t.jsx)(`h2`,{className:` text-center text-[#2D7A45] ${n} `,children:e})}export{n as t};
